@@ -1,4 +1,4 @@
-import { Topic, Wrapper, MetaWrapper, Text, Button } from '../QuizCard/QuizCard.styled';
+import { Topic, Wrapper, MetaWrapper, Text, Button } from './QuizCard.styled';
 
 export const QuizCard = ({ quiz: { id, topic, level, time, questions } }) => {
   return (

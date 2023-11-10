@@ -1,5 +1,5 @@
-import { QuizCard } from '../QuizCard/QuizCard';
-import { List, ListItem } from './QuizList.styled'
+import { QuizCard } from '../QuizCard/OuizCard';
+import { List, ListItem } from '../QuizList/QuizList.styled'
 
 export const QuizList = ({ items }) => {
   return (
